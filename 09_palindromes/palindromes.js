@@ -1,6 +1,6 @@
 const palindromes = function (string) {
 
-    let strArr = string.replace(/[^A-Za-z]/g, '').toLowerCase().split('');
+    let strArr = string.replace(/[^A-Za-z0-9]/g, '').toLowerCase().split('');
     let backArr = [];
     let result;
 
